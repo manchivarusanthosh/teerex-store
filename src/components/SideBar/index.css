@@ -1,0 +1,37 @@
+.side-bar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.side-bar-title {
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.filter-list {
+  list-style-type: none;
+  font-size: 12px;
+  padding-left: 12px;
+}
+.list-container {
+  margin-left: 30px;
+  height: 70%;
+  width: 50%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.filter-list li input {
+  color: red;
+}
+@media (max-width: 420px) {
+  .side-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .side-bar-title {
+    font-size: 10px;
+  }
+}
